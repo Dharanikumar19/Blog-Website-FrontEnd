@@ -58,7 +58,7 @@ function Header() {
                                     <>
                                         <MDBNavbarItem>
                                             <MDBNavbarLink href="/addBlog">
-                                                <p className="header-text">Add-Post</p>
+                                                <p className="header-text">Add-Blog</p>
                                             </MDBNavbarLink>
                                         </MDBNavbarItem>
 

@@ -100,7 +100,7 @@ function Register() {
                     </MDBValidation>
                 </MDBCardBody>
                 <MDBCardFooter>
-                    <Link to="/login"><p>Already have an Account ? Login Up</p></Link>
+                    <Link to="/login"><p>Already have an Account ? Login</p></Link>
                 </MDBCardFooter>
             </MDBCard>
         </div>
