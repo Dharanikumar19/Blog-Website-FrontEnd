@@ -32,7 +32,7 @@ function Header() {
                         href="/"
                         style={{ color: "#eef093", fontWeight: "600", fontSize: "22px" }}
                     >
-                        Blog Website
+                        Bloggers Arena
                     </MDBNavbarBrand>
                     <MDBNavbarToggler
                         type="button"
@@ -86,9 +86,7 @@ function Header() {
                                 </MDBNavbarItem>
                                 )
                             }
-
-
-                          
+                  
 
                         </MDBNavbarNav>
                     </MDBCollapse>
