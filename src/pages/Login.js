@@ -29,6 +29,12 @@ function Login() {
     const dispatch = useDispatch()
     const navigate = useNavigate()
 
+    const fillInputs = () => {
+        setFormValue({email : "test@gmail.com", password : "123456"})
+    }
+
+
+
     useEffect(() => {
         error && toast.error(error)
     }, [error])
@@ -108,6 +114,7 @@ function Login() {
                 </MDBCardBody>
                 <MDBCardFooter>
                     <Link to="/register"><p>Don't have an Account ? Sign Up</p></Link>
+                    <MDBBtn style={{ width: "100%" }} onClick={()=> fillInputs()} className="mt-2">Demo Credentials</MDBBtn>
                 </MDBCardFooter>
             </MDBCard>
         </div>
